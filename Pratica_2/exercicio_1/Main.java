@@ -1,7 +1,6 @@
 public class Main {
 
     public static void main(String[] args) {
-        // Obtém instâncias únicas das factories (Singleton)
         FabricanteCelular appleFactory = AppleFactory.getInstance();
         FabricanteCelular samsungFactory = SamsungFactory.getInstance();
 
