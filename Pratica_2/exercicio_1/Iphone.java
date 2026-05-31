@@ -12,12 +12,12 @@ public class Iphone implements Celular {
 
     @Override
     public void fazLigacao(){
-        System.out.println("Iphone" + modelo + " Ligando via Facetime...");
+        System.out.println("Iphone " + modelo + " Ligando via Facetime...");
     }
 
     @Override
     public void tiraFoto(){
-        System.out.println("Iphone" + modelo + "Tirando Foto...");
+        System.out.println("Iphone " + modelo + " Tirando Foto...");
     }
 
 }

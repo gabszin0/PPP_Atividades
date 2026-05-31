@@ -1,5 +1,5 @@
-public interface FabricanteCelular extends Celular{
-    
-    public Celular constroiCelular(String modelo);
+public interface FabricanteCelular {
+
+    public Celular construirCelular(String modelo);
 
 }

@@ -12,12 +12,13 @@ public class AppleFactory implements FabricanteCelular{
     }
 
     @Override
-    public Celular constroiCelular(String modelo) {
-        if (modelo.equals("IphoneX") || modelo.equals("IphoneX")) {
+    public Celular construirCelular(String modelo) {
+        if (modelo.equals("IphoneX") || modelo.equals("IphoneS")) {
             return new Iphone(modelo);
         }
         System.out.println("Apple não fabrica o modelo: " + modelo);
         return null;
     }
+
 }
     

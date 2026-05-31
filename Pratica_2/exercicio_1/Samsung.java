@@ -12,11 +12,11 @@ public class Samsung implements Celular{
 
     @Override
     public void fazLigacao(){
-        System.out.println("Samsung" + modelo + " Ligando via Facetime...");
+        System.out.println("Samsung " + modelo + " Ligando via Facetime...");
     }
-    
+
     @Override
     public void tiraFoto(){
-        System.out.println("Samsung" + modelo + "Tirando Foto...");
+        System.out.println("Samsung " + modelo + " Tirando Foto...");
     }
 }
