@@ -11,5 +11,4 @@ public class PavaoAdapter implements Ave{
         pavao.cantar();
     }
 
-
 }
