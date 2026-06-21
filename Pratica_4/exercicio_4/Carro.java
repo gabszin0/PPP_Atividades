@@ -1,4 +1,5 @@
 public class Carro {
+
     private Motor motor;
     private CintodeSeguranca cinto;
     private Porta porta;
@@ -14,24 +15,22 @@ public class Carro {
     }
 
     public void ligarCarro() {
-        System.out.println("\n--- LIGANDO O CARRO ---");
         motor.ligar();
         porta.trancar();
         cinto.travar();
         farol.acender();
         radio.ligar();
         radio.sintonizarPreferida();
-        System.out.println("✓ Carro pronto para dirigir!\n");
+        System.out.println("Carro pronto para dirigir!\n");
     }
 
     public void desligarCarro() {
-        System.out.println("\n--- DESLIGANDO O CARRO ---");
         motor.desligar();
         porta.destrancar();
         cinto.destravar();
         farol.apagar();
         radio.desligar();
-        System.out.println("✓ Carro desligado com segurança!\n");
+        System.out.println("Carro desligado com segurança!\n");
     }
 
     public void setEstacaoPreferida(String estacao) {
@@ -47,4 +46,5 @@ public class Carro {
         System.out.println("Rádio: " + (radio.isLigado() ? "LIGADO" : "DESLIGADO"));
         System.out.println();
     }
+    
 }

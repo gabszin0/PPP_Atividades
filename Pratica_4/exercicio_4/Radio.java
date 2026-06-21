@@ -1,4 +1,5 @@
 public class Radio {
+    
     private boolean ligado;
     private String estacaoPreferida;
 
@@ -9,21 +10,21 @@ public class Radio {
 
     public void ligar() {
         this.ligado = true;
-        System.out.println("  ✓ Rádio ligado");
+        System.out.println("  Rádio ligado");
     }
 
     public void desligar() {
         this.ligado = false;
-        System.out.println("  ✓ Rádio desligado");
+        System.out.println("  Rádio desligado");
     }
 
     public void sintonizar(String estacao) {
         this.estacaoPreferida = estacao;
-        System.out.println("  ✓ Rádio sintonizado em: " + estacao);
+        System.out.println("  Rádio sintonizado em: " + estacao);
     }
 
     public void sintonizarPreferida() {
-        System.out.println("  ✓ Rádio sintonizado em estação preferida: " + estacaoPreferida);
+        System.out.println("  Rádio sintonizado em estação preferida: " + estacaoPreferida);
     }
 
     public boolean isLigado() {
@@ -33,4 +34,5 @@ public class Radio {
     public void setEstacaoPreferida(String estacao) {
         this.estacaoPreferida = estacao;
     }
+
 }

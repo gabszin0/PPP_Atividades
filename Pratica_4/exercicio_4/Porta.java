@@ -1,4 +1,5 @@
 public class Porta {
+
     private boolean trancada;
 
     public Porta() {
@@ -7,15 +8,16 @@ public class Porta {
 
     public void trancar() {
         this.trancada = true;
-        System.out.println("  ✓ Portas trancadas");
+        System.out.println("  Portas trancadas");
     }
 
     public void destrancar() {
         this.trancada = false;
-        System.out.println("  ✓ Portas destrancadas");
+        System.out.println("  Portas destrancadas");
     }
 
     public boolean isTrancada() {
         return trancada;
     }
+
 }

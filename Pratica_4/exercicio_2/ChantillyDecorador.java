@@ -1,4 +1,5 @@
 public class ChantillyDecorador extends Decorador {
+    
     public ChantillyDecorador(Bebida bebida) {
         super(bebida);
     }
@@ -12,4 +13,5 @@ public class ChantillyDecorador extends Decorador {
     public String getDescricao() {
         return bebida.getDescricao() + ", com chantilly";
     }
+    
 }

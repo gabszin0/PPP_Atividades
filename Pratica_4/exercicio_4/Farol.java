@@ -1,4 +1,5 @@
 public class Farol {
+
     private boolean aceso;
 
     public Farol() {
@@ -7,15 +8,16 @@ public class Farol {
 
     public void acender() {
         this.aceso = true;
-        System.out.println("  ✓ Farol aceso");
+        System.out.println(" Farol aceso");
     }
 
     public void apagar() {
         this.aceso = false;
-        System.out.println("  ✓ Farol apagado");
+        System.out.println(" Farol apagado");
     }
 
     public boolean isAceso() {
         return aceso;
     }
+
 }
